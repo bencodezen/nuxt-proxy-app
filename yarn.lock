@@ -2820,10 +2820,9 @@ nanoid@^4.0.1:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.1.tgz#398d7ccfdbf9faf2231b2ca7e8fff5dbca6a509b"
   integrity sha512-udKGtCCUafD3nQtJg9wBhRP3KMbPglUsgV5JVsXhvyBs/oefqb4sqMEhKBBgqZncYowu58p1prsZQBYvAj/Gww==
 
-nitropack@~2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/nitropack/-/nitropack-2.3.2.tgz#8914460c950d2e38c8defcefef1b082e23ea85ce"
-  integrity sha512-bps3OvC3JocB3Hl6/FUaQpbLw1Xsr6KXV3hTDnh54N0B0uAGWN9aF1LVHKBpWSS5JJvjwd+ZewOUFsPRM2NJ9Q==
+"nitropack@file:./nitropack-2.3.2-netlify-lambda-non-string.0.tgz", nitropack@~2.3.1:
+  version "2.3.2-netlify-lambda-non-string.0"
+  resolved "file:./nitropack-2.3.2-netlify-lambda-non-string.0.tgz#e60c7793bc866b638e3867d875432c2d6cf1c58a"
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.3.0"
     "@netlify/functions" "^1.4.0"
